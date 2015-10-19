@@ -60,6 +60,67 @@ Show
 	SetBorderColor 170 158 130
 	PlayAlertSound 1
 
+#ToggleBegin[Regal Recipe: Good Belt Bases]
+#ToggleOn
+Show
+    Class "Belts"
+	BaseType "Leather" "Chain" "Heavy" "Rustic"
+	ItemLevel >= 75
+	Rarity Rare
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+#ToggleEnd
+
+#ToggleBegin[Regal Recipe: Weapon]
+#ToggleOn
+Show
+	ItemLevel >= 75
+	Rarity Rare
+	Class "Stave" "Two Hand" "Bow"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Regal Recipe: Body]
+#ToggleOn
+Show
+	ItemLevel >= 75
+	Rarity Rare
+	Class "Body"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+	
+#ToggleBegin[Regal Recipe: Helmet]
+#ToggleOn
+Show
+	ItemLevel >= 75
+	Rarity Rare
+	Class "Helmet"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Regal Recipe: Gloves]
+#ToggleOn
+Show
+	ItemLevel >= 75
+	Rarity Rare
+	Class "Gloves"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Regal Recipe: Boots]
+#ToggleOn
+Show
+	ItemLevel >= 75
+	Rarity Rare
+	Class "Boots"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+	
 Show	
 	Class "Rings" "Amulet"
 	ItemLevel >= 75
