@@ -1,0 +1,297 @@
+# default              rgb(127,127,127)
+# valuedefault         rgb(255,255,255)
+# pink                 rgb(255,192,203)
+# dodgerblue           rgb(30,144,255)
+# fire                 rgb(150,0,0)
+# cold                 rgb(54,100,146)
+# lightning            rgb(255,215,0)
+# chaos                rgb(208,32,144)
+# augmented            rgb(136,136,255)
+# crafted              rgb(184,218,242)
+# unmet                rgb(210,0,0)
+# uniqueitem           rgb(175,96,37)
+# rareitem             rgb(255,255,119)
+# magicitem            rgb(136,136,255)
+# whiteitem            rgb(200,200,200)
+# gemitem              rgb(27,162,155)
+# currencyitem         rgb(170,158,130)
+# questitem            rgb(74,230,58)
+# nemesismod           rgb(255,200,0)
+# nemesismodoutline    argb(220,255,40,0)
+# title                rgb(231,180,120)
+# corrupted            rgb(210,0,0)
+# favour               rgb(170,158,130)
+# supporterpacknewitem rgb(180,96,0)
+# supporterpackitem    rgb(163,141,109)
+# bloodlinemod         rgb(210,0,220)
+# bloodlinemodoutline  argb(200,74,0,160)
+# tormentmod           rgb(50,230,100)
+# tormentmodoutline    argb(200,0,100,150)
+# canttradeormodify    rgb(210,0,0)
+# div card			   rgb(14,186,255)
+
+Show
+	Rarity Unique
+
+#Show
+#    BaseType "Occultist's Vestment" "Imperial Bow" "Gavel"
+#    Rarity Normal
+#	SetBackgroundColor 0 0 0 255
+#	SetBorderColor 175 96 37
+
+Show
+    LinkedSockets 5
+	Class "Body"
+	SetTextColor 30 30 30
+	SetBackgroundColor 230 230 230
+	PlayAlertSound 1
+
+Show
+	LinkedSockets 6
+	SetTextColor 30 30 30
+	SetBackgroundColor 230 230 230
+	PlayAlertSound 1
+
+Show 
+    Sockets 6
+	SetTextColor 170 158 130
+	SetBorderColor 170 158 130
+	PlayAlertSound 1
+
+Show	
+	Class "Rings" "Amulet"
+	ItemLevel >= 75
+	Rarity Rare
+	SetTextColor 30 30 30
+	SetBackgroundColor 0 130 180
+
+Show	
+	Class "Belt"
+	BaseType "Cloth Belt" "Studded Belt"
+	ItemLevel >= 75
+	Rarity Rare
+	SetTextColor 30 30 30
+	SetBackgroundColor 0 130 180
+
+Show
+    Class "Rings" "Amulet"
+	ItemLevel >= 60
+	Rarity Rare
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+
+Show
+    Class "Belts"
+	BaseType "Cloth Belt" "Studded Belt"
+	ItemLevel >= 60
+	Rarity Rare
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+
+#ToggleBegin[Chaos Recipe: Good Belt Bases]
+#ToggleOn
+Show
+    Class "Belts"
+	BaseType "Leather" "Chain" "Heavy" "Rustic"
+	ItemLevel >= 60
+	Rarity Rare
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+#ToggleEnd
+
+#ToggleBegin[Chaos Recipe: Weapon]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Stave" "Two Hand" "Bow"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Chaos Recipe: Body]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Body"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+	
+#ToggleBegin[Chaos Recipe: Helmet]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Helmet"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Chaos Recipe: Gloves]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Gloves"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Chaos Recipe: Boots]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Boots"
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Headhunter Recipe: Leather Belt]
+#ToggleOn
+Show
+	Class "Belt"
+	BaseType "Leather Belt"
+	Rarity Normal
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+Show
+    SocketGroup RGB
+	SetTextColor 170 158 130
+
+Show
+	Class "Skill Gems"
+	BaseType "Vaal"
+
+Show
+	Class "Skill Gems"
+	BaseType "Empower" "Enlighten" "Enhance" "Portal" "Item Quantity"
+	SetBorderColor 27 162 155
+	PlayAlertSound 1
+	
+Show
+	Class "Skill Gems"
+	Quality >= 1
+	
+Hide
+	Class "Skill Gems"
+
+Show
+	Class "Divination Card"
+	SetBorderColor 14 186 255
+
+Show
+	Class "Currency"
+	BaseType "Divine Orb" "Exalted Orb" "Eternal Orb" "Mirror of Kalandra" "Albino Rhoa Feather"
+	SetTextColor 30 30 30
+	SetBackgroundColor 230 230 230
+	SetFontSize 36
+	PlayAlertSound 1
+	
+Show
+	Class "Currency"
+	BaseType "Blessed Orb" "Cartographer's Chisel" "Orb of Chance" "Orb of Alchemy" "Orb of Fusing" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Regal Orb" "Gemcutter's Prism"
+	SetBorderColor 170 158 130
+	SetFontSize 36
+	PlayAlertSound 2
+	
+Show
+	Class "Currency"
+	BaseType "Jeweller's Orb" "Glassblower's Bauble"
+	SetBorderColor 170 158 130
+	SetFontSize 36
+
+Show
+	Class "Currency"
+	SetFontSize 36
+	
+Show
+	Class "Jewel"
+	Rarity Rare
+	SetBorderColor 255 255 119
+	
+Show
+	Class "Jewel"
+	Rarity Magic
+	SetBorderColor 136 136 255
+	
+Show
+	Class "Jewel"
+	Rarity Normal
+	SetBorderColor 200 200 200
+	
+Show
+	Class "Currency" "Quest Items" "Fishing Rod" "Map" "Jewel"
+
+#ToggleBegin[Gemcutter Recipe: Quality Flask]
+#ToggleOn
+Show
+    Class "Flask"
+    Quality >= 10
+	SetTextColor 170 158 130
+	SetBorderColor 170 158 130
+#ToggleEnd
+
+#ToggleBegin[Life Flask]
+#ToggleOn
+Show
+	Class "Flask"
+	BaseType "Life"
+#ToggleEnd
+
+#ToggleBegin[Mana Flask]
+#ToggleOn
+Show
+	Class "Flask"
+	BaseType "Mana"
+#ToggleEnd
+
+#ToggleBegin[Ruby Flask]
+#ToggleOn
+Show
+	Class "Flask"
+	BaseType "Ruby"
+#ToggleEnd
+
+#ToggleBegin[Topaz Flask]
+#ToggleOn
+Show
+	Class "Flask"
+	BaseType "Topaz"
+#ToggleEnd
+
+#ToggleBegin[Sapphire Flask]
+#ToggleOn
+Show
+	Class "Flask"
+	BaseType "Sapphire"
+#ToggleEnd
+
+#ToggleBegin[Quicksilver Flask]
+#ToggleOn
+Show
+	Class "Flask"
+	BaseType "Quicksilver"
+#ToggleEnd
+
+#ToggleBegin[Granite Flask]
+#ToggleOn
+Show
+	Class "Flask"
+	BaseType "Granite"
+#ToggleEnd
+
+#ToggleBegin[Jade Flask]
+#ToggleOn
+Show
+	Class "Flask"
+	BaseType "Jade"
+#ToggleEnd
+
+Hide
+	Rarity < Rare
+	#Rarity < Unique
