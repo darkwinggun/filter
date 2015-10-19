@@ -1,4 +1,4 @@
-#GuNNNerVersion=2
+#GuNNNerVersion=3
 
 # default              rgb(127,127,127)
 # valuedefault         rgb(255,255,255)
@@ -68,7 +68,7 @@ Show
 	ItemLevel >= 75
 	Rarity Rare
 	SetTextColor 30 30 30
-	SetBackgroundColor 170 130 0
+	SetBackgroundColor 0 130 180
 #ToggleEnd
 
 #ToggleBegin[Regal Recipe: Weapon]
