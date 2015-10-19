@@ -1,4 +1,4 @@
-#GuNNNerVersion=3
+#GuNNNerVersion=4
 
 # default              rgb(127,127,127)
 # valuedefault         rgb(255,255,255)
@@ -290,7 +290,7 @@ Show
 Show
 	Class "Currency" "Quest Items" "Fishing Rod" "Map" "Jewel"
 
-#ToggleBegin[Gemcutter Recipe: Quality Flask]
+#ToggleBegin[Glassblower's Bauble Recipe: Quality Flask]
 #ToggleOn
 Show
     Class "Flask"
