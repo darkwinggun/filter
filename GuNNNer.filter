@@ -1,4 +1,4 @@
-#GuNNNerVersion=4
+#GuNNNerVersion=5
 
 # default              rgb(127,127,127)
 # valuedefault         rgb(255,255,255)
@@ -162,7 +162,57 @@ Show
 	SetBackgroundColor 170 130 0
 #ToggleEnd
 
-#ToggleBegin[Chaos Recipe: Weapon]
+#ToggleBegin[Chaos Recipe (gold): Weapon]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Stave" "Two Hand" "Bow"
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+#ToggleEnd
+
+#ToggleBegin[Chaos Recipe (gold): Body]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Body"
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+#ToggleEnd
+	
+#ToggleBegin[Chaos Recipe (gold): Helmet]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Helmet"
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+#ToggleEnd
+
+#ToggleBegin[Chaos Recipe (gold): Gloves]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Gloves"
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+#ToggleEnd
+
+#ToggleBegin[Chaos Recipe (gold): Boots]
+#ToggleOn
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Class "Boots"
+	SetTextColor 30 30 30
+	SetBackgroundColor 170 130 0
+#ToggleEnd
+
+#ToggleBegin[Chaos Recipe (green): Weapon]
 #ToggleOn
 Show
 	ItemLevel >= 60
@@ -172,7 +222,7 @@ Show
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Chaos Recipe: Body]
+#ToggleBegin[Chaos Recipe (green): Body]
 #ToggleOn
 Show
 	ItemLevel >= 60
@@ -182,7 +232,7 @@ Show
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 	
-#ToggleBegin[Chaos Recipe: Helmet]
+#ToggleBegin[Chaos Recipe (green): Helmet]
 #ToggleOn
 Show
 	ItemLevel >= 60
@@ -192,7 +242,7 @@ Show
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Chaos Recipe: Gloves]
+#ToggleBegin[Chaos Recipe (green): Gloves]
 #ToggleOn
 Show
 	ItemLevel >= 60
@@ -202,7 +252,7 @@ Show
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Chaos Recipe: Boots]
+#ToggleBegin[Chaos Recipe (green): Boots]
 #ToggleOn
 Show
 	ItemLevel >= 60
