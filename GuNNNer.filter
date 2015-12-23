@@ -1,4 +1,4 @@
-#GuNNNerVersion=5
+#GuNNNerVersion=6
 
 # default              rgb(127,127,127)
 # valuedefault         rgb(255,255,255)
@@ -59,7 +59,7 @@ Show
 	SetTextColor 170 158 130
 	SetBorderColor 170 158 130
 	PlayAlertSound 1
-
+	
 #ToggleBegin[Regal Recipe: Good Belt Bases]
 #ToggleOn
 Show
@@ -334,6 +334,21 @@ Show
 	
 Show
 	Class "Jewel"
+	Rarity Normal
+	SetBorderColor 200 200 200
+	
+Show
+	BaseType "Talisman"
+	Rarity Rare
+	SetBorderColor 255 255 119
+	
+Show
+	BaseType "Talisman"
+	Rarity Magic
+	SetBorderColor 136 136 255
+	
+Show
+	BaseType "Talisman"
 	Rarity Normal
 	SetBorderColor 200 200 200
 	
