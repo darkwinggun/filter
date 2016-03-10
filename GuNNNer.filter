@@ -1,4 +1,4 @@
-#GuNNNerVersion=8
+#GuNNNerVersion=9
 
 # default              rgb(127,127,127)
 # valuedefault         rgb(255,255,255)
@@ -262,31 +262,37 @@ Show
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Recipe: Leather Belt]
+#ToggleBegin[Chance Recipe: Leather Belt]
 #ToggleOn
 Show
-	Class "Belt"
 	BaseType "Leather Belt"
 	Rarity Normal
 	SetTextColor 30 30 30
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Recipe: Occultist Vestment]
+#ToggleBegin[Chance Recipe: Occultist Vestment]
 #ToggleOn
 Show
-	Class "Body"
 	BaseType "Occultist's Vestment"
 	Rarity Normal
 	SetTextColor 30 30 30
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Recipe: Scholar Boots]
+#ToggleBegin[Chance Recipe: Scholar Boots]
 #ToggleOn
 Show
-	Class "Boots"
 	BaseType "Scholar Boots"
+	Rarity Normal
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Chance Recipe: Prophecy Wand]
+#ToggleOn
+Show
+	BaseType "Prophecy Wand"
 	Rarity Normal
 	SetTextColor 30 30 30
 	SetBackgroundColor 60 170 120
