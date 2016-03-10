@@ -1,4 +1,4 @@
-#GuNNNerVersion=6
+#GuNNNerVersion=7
 
 # default              rgb(127,127,127)
 # valuedefault         rgb(255,255,255)
@@ -59,14 +59,14 @@ Show
 	SetTextColor 170 158 130
 	SetBorderColor 170 158 130
 	PlayAlertSound 1
-	
+
 #ToggleBegin[Regal Recipe: Good Belt Bases]
 #ToggleOn
 Show
-    Class "Belts"
-	BaseType "Leather" "Chain" "Heavy" "Rustic"
 	ItemLevel >= 75
 	Rarity Rare
+	Class "Belts"
+	BaseType "Leather" "Chain" "Heavy" "Rustic"
 	SetTextColor 30 30 30
 	SetBackgroundColor 0 130 180
 #ToggleEnd
@@ -78,7 +78,7 @@ Show
 	Rarity Rare
 	Class "Stave" "Two Hand" "Bow"
 	SetTextColor 30 30 30
-	SetBackgroundColor 60 170 120
+	SetBackgroundColor 0 130 180
 #ToggleEnd
 
 #ToggleBegin[Regal Recipe: Body]
@@ -88,7 +88,7 @@ Show
 	Rarity Rare
 	Class "Body"
 	SetTextColor 30 30 30
-	SetBackgroundColor 60 170 120
+	SetBackgroundColor 0 130 180
 #ToggleEnd
 	
 #ToggleBegin[Regal Recipe: Helmet]
@@ -98,7 +98,7 @@ Show
 	Rarity Rare
 	Class "Helmet"
 	SetTextColor 30 30 30
-	SetBackgroundColor 60 170 120
+	SetBackgroundColor 0 130 180
 #ToggleEnd
 
 #ToggleBegin[Regal Recipe: Gloves]
@@ -108,7 +108,7 @@ Show
 	Rarity Rare
 	Class "Gloves"
 	SetTextColor 30 30 30
-	SetBackgroundColor 60 170 120
+	SetBackgroundColor 0 130 180
 #ToggleEnd
 
 #ToggleBegin[Regal Recipe: Boots]
@@ -118,7 +118,7 @@ Show
 	Rarity Rare
 	Class "Boots"
 	SetTextColor 30 30 30
-	SetBackgroundColor 60 170 120
+	SetBackgroundColor 0 130 180
 #ToggleEnd
 	
 Show	
@@ -267,6 +267,26 @@ Show
 Show
 	Class "Belt"
 	BaseType "Leather Belt"
+	Rarity Normal
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Shavronnes Wrappings Recipe: Occultist Vestment]
+#ToggleOn
+Show
+	Class "Body"
+	BaseType "Occultist's Vestment"
+	Rarity Normal
+	SetTextColor 30 30 30
+	SetBackgroundColor 60 170 120
+#ToggleEnd
+
+#ToggleBegin[Shavronnes Pace Recipe: Scholar Boots]
+#ToggleOn
+Show
+	Class "Boots"
+	BaseType "Scholar Boots"
 	Rarity Normal
 	SetTextColor 30 30 30
 	SetBackgroundColor 60 170 120
