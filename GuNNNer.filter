@@ -1,4 +1,4 @@
-#GuNNNerVersion=7
+#GuNNNerVersion=8
 
 # default              rgb(127,127,127)
 # valuedefault         rgb(255,255,255)
@@ -262,7 +262,7 @@ Show
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Headhunter Recipe: Leather Belt]
+#ToggleBegin[Recipe: Leather Belt]
 #ToggleOn
 Show
 	Class "Belt"
@@ -272,7 +272,7 @@ Show
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Shavronnes Wrappings Recipe: Occultist Vestment]
+#ToggleBegin[Recipe: Occultist Vestment]
 #ToggleOn
 Show
 	Class "Body"
@@ -282,7 +282,7 @@ Show
 	SetBackgroundColor 60 170 120
 #ToggleEnd
 
-#ToggleBegin[Shavronnes Pace Recipe: Scholar Boots]
+#ToggleBegin[Recipe: Scholar Boots]
 #ToggleOn
 Show
 	Class "Boots"
